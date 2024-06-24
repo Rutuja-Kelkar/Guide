@@ -1,20 +1,28 @@
 ---
 layout: guide
-title: User research
+title: Conducting research
 description: Bitcoin user research is unique due to the decentralized and public nature of the network.
-nav_order: 4
-parent: Designing Bitcoin products
+nav_order: 2
+parent: Designing bitcoin products
 has_children: true
 permalink: /guide/designing-products/user-research/
 main_classes: -no-top-padding
 image: https://bitcoin.design/assets/images/guide/designing-products/user-research/user-research-preview.jpg
+video_base: /assets/images/guide/designing-products/user-research/
+videos:
+    - youtubeId: 6c-t4IDy8dg
+      file: ux-research-call-1-user-personas
+      caption: UX research call on user personas
+    - youtubeId: HFhpH30A6xA
+      file: ux-research-call-2-user-stories
+      caption: UX research call on user stories
 ---
 
 <!--
 
 Editor's notes
 
-Goal of this page is to frame user research in the bitcoin ecosystem.
+The goal of this page is to frame user research in the bitcoin ecosystem.
 - The role, importance, and value of user research
 - Unique aspects of the space
 - Starting points for getting involved
@@ -42,7 +50,7 @@ Illustration sources
    layout = "full-width"
 %}
 
-# User research
+# Conducting research
 
 We design products to benefit users. That’s why it is necessary to understand their needs, desires, and behaviors. A comprehensive design strategy balances user needs with considerations around the technology, business models, societal and economic impact, and other factors. In this section, we focus on understanding the users better.
 
@@ -69,9 +77,9 @@ User research allows us to effectively connect these dots and highlight the quic
 
 </div>
 
-## User research is different with Bitcoin
+## User research is different with bitcoin
 
-In some ways, research and development are the same from industry to industry. But that’s not always the case with Bitcoin. To avoid repeating what has already been said about doing product R&D elsewhere, we’ll look at how it’s different on planet Bitcoin.
+In some ways, research and development are the same from industry to industry. But that’s not always the case with bitcoin. To avoid repeating what has already been said about doing product R&D elsewhere, we’ll look at how it’s different on planet bitcoin.
 
 ### Global audiences and use cases
 
@@ -86,9 +94,9 @@ In some ways, research and development are the same from industry to industry. B
    layout = "float-right-desktop"
 %}
 
-Most digital products start with a specific country, culture, language, or legal framework in mind. This is especially true for financial applications, which are typically highly regulated and need to slowly and strategically evolve. While Bitcoin did start with a single language, its use case was not tied to any particular context, resulting in a much more diverse user base from the start.
+Most digital products start with a specific country, culture, language, or legal framework in mind. This is especially true for financial applications, which are typically highly regulated and need to slowly and strategically evolve. While bitcoin did start with a single language, its use case was not tied to any particular context, resulting in a much more diverse user base from the start.
 
-Diverse online communities rapidly formed around Bitcoin. Vast amounts of public conversation can help designers and developers comprehend what is possible and what is needed from Bitcoin. These communities are great for brainstorming ideas, getting feedback, and involving users actively in the design process.
+Diverse online communities rapidly formed around bitcoin. Vast amounts of public conversation can help designers and developers comprehend what is possible and what is needed from bitcoin. These communities are great for brainstorming ideas, getting feedback, and involving users actively in the design process.
 
 - [Bitcoin on GitHub](https://github.com/bitcoin)
 - [Bitcoin mailing list](https://lists.linuxfoundation.org/mailman/listinfo/bitcoin-dev)
@@ -100,7 +108,7 @@ Diverse online communities rapidly formed around Bitcoin. Vast amounts of public
 
 ### An unknowable userbase
 
-Bitcoin only knows its users through pseudonymous addresses. We can analyze on-chain metrics for things like fundamental transaction behaviors, but analysis of addresses and transactions beyond this can be complicated. While the privacy Bitcoin provides is a fundamental aspect, it can make things challenging for user researchers.
+Bitcoin only knows its users through pseudonymous addresses. We can analyze on-chain metrics for things like fundamental transaction behaviors, but analysis of addresses and transactions beyond this can be complicated. While the privacy bitcoin provides is a fundamental aspect, it can make things challenging for user researchers.
 
 ### Transparent and extensible
 
@@ -117,9 +125,9 @@ Bitcoin only knows its users through pseudonymous addresses. We can analyze on-c
 
 Bitcoin is a protocol with [layers](https://bitcoin.design/guide/getting-started/technology-primer/#do-all-transactions-have-to-be-this-secure) built on top of it.
 
-The base layer is a public record of transactions that can easily be analyzed. However, layers built on top, such as [Lightning network](/guide/getting-started/technology-primer/#the-lightning-payment-network) make analysis of specific transaction impossible, thanks to [payment channels](/guide/getting-started/technology-primer/#what-is-a-payment-channel).
+The base layer is a public record of transactions that can easily be analyzed. However, layers built on top, such as [lightning network](/guide/getting-started/technology-primer/#the-lightning-payment-network) make analysis of specific transaction impossible, thanks to [payment channels](/guide/getting-started/technology-primer/#what-is-a-payment-channel).
 
-While we often can’t know who is responsible for a specific transaction, on the Lightning network, we can attempt to analyze the overall network activity and look into metrics such as number of nodes, network capacity, payment channels changes.
+While we often can’t know who is responsible for a specific transaction, on the lightning network, we can attempt to analyze the overall network activity and look into metrics such as number of nodes, network capacity, payment channels changes.
 
 No other currency in history has offered such a transparent way to analyze network activity. As designers, what can we learn from this data that allows us to improve the experience of our users.
 
@@ -138,9 +146,9 @@ No other currency in history has offered such a transparent way to analyze netwo
    layout = "float-right-desktop"
 %}
 
-New technologies can take decades to reach mainstream adoption. Bitcoin is, in our opinion, still on its way up the adoption curve, which means it and we are early. This affects research in multiple ways. Early adopters have different use cases and needs than users who adopt Bitcoin ten years from now. Products designed today could be outdated by the time that the early majority embraced Bitcoin.
+New technologies can take decades to reach mainstream adoption. Bitcoin is, in our opinion, still on its way up the adoption curve, which means it and we are early. This affects research in multiple ways. Early adopters have different use cases and needs than users who adopt bitcoin ten years from now. Products designed today could be outdated by the time that the early majority embraced bitcoin.
 
-Secondly, as Bitcoin matures, its capabilities will evolve. Scaling and performance improvements will make transactions more affordable, private, and secure. These improvements will make people more comfortable embracing Bitcoin as both a store of value and medium of exchange.
+Secondly, as bitcoin matures, its capabilities will evolve. Scaling and performance improvements will make transactions more affordable, private, and secure. These improvements will make people more comfortable embracing bitcoin as both a store of value and medium of exchange.
 
 There is an interplay between the size of the user base and the maturity of the technology. For user research, this means that as development accelerates, so will the obsoletion of past user research.
 
@@ -155,7 +163,7 @@ Links to:
 
 ### Open source and open design
 
-While there are plenty of private companies that build on Bitcoin, but this guide focuses on open-source. In open-source, collaboration is based on communal efforts that mostly happen in public. Find out more on our dedicated page on [open design]({{ '/guide/designing-products/open-design/' | relative_url }}).
+While there are plenty of private companies that build on bitcoin, this guide focuses on open-source. In open-source, collaboration is based on communal efforts that mostly happen in public. Find out more on our dedicated page on [open design]({{ '/guide/getting-started/open-design/' | relative_url }}).
 
 <!--
 
@@ -192,7 +200,13 @@ Links to:
 
 ## Resources
 
-Join the discussion in the [#research channel](https://bitcoindesign.slack.com/archives/C015DQEPCHJ) on the Bitcoin Design Slack.
+---
+
+{% include videos.html video_base = page.video_base videos = page.videos %}
+
+---
+
+For practical guidance, use the [Bitcoin UX Research Toolkit](https://bitcoinresearch.xyz) and join the discussion in the [#research channel](https://discord.com/channels/903125802726596648/903126614236360764) on the Bitcoin Design Discord.
 
 <!--
 
@@ -203,11 +217,11 @@ Links to:
 
 ---
 
-Frameworks are helpful tools to organize user behavior. Our next section introduces one with a focus on the [usage life cycle]({{ '/guide/designing-products/usage-life-cycle/' | relative_url }}).
+Next we will look at why it is important to [get to know your users]({{ '/guide/designing-products/getting-to-know-your-users/' | relative_url }}) when designing bitcoin applications.
 
 {% include next-previous.html
-   previousUrl = "/guide/designing-products/principles/"
-   previousName = "Design principles"
-   nextUrl = "/guide/designing-products/usage-life-cycle/"
-   nextName = "Usage life cycle"
+   previousUrl = "/guide/designing-products/personal-finance/"
+   previousName = "Personal finance"
+   nextUrl = "/guide/designing-products/getting-to-know-your-users/"
+   nextName = "Getting to know your users"
 %}

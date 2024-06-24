@@ -12,6 +12,22 @@
   margin-left: 0;
   list-style: none;
 
+  .nav-list-divider {
+    height: 1px;
+    margin-left: 30px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    background-color: #dedede;
+    box-sizing: border-box;
+  }
+
+  .nav-list-category {
+    padding-left: 30px;
+    font-size: 15px;
+    line-height: 30px;
+    color: #707070;
+  }
+
   .nav-list-item {
     position: relative;
     margin: 0;
@@ -19,8 +35,8 @@
     a.nav-list-link {
       display: block;
       font-size: 15px;
-      line-height: 34px;
-      margin-left: 34px;
+      line-height: 30px;
+      margin-left: 30px;
       color: black;
 
       &:visited {
@@ -29,12 +45,16 @@
 
       &.-active {
         font-weight: 500;
-        color: $primary-color;
+        color: var(--primary-color);
         text-decoration: none;
 
         &:visited {
-          color: $primary-color;
+          color: var(--primary-color);
         }
+      }
+
+      &:hover {
+        color: var(--primary-color);
       }
 
       &:hover,
@@ -49,36 +69,30 @@
       display: flex;
       justify-content: center;
       align-items: center;
-      width: 34px;
-      height: 34px;
+      width: 30px;
+      height: 30px;
       background-color: transparent;
       border-width: 0;
-      appearance: none;
 
       svg {
         width: 15px;
         height: 15px;
-        color: $link-base-color;
+        color: var(--link-base-color);
         transition: all 150ms $ease;
       }
 
       &:active,
-      &:focus {
+      &:focus-visible {
         border-width: 0;
-        outline: none;
-        background-color: rgba($primary-color, 0.1);
+        background-color: rgba(var(--primary-color-rgb), 0.1);
       }
 
       &:hover {
-        background-color: rgba($primary-color, 0.1);
+        background-color: rgba(var(--primary-color-rgb), 0.1);
 
         svg {
-          color: $primary-color;
+          color: var(--primary-color);
         }
-      }
-
-      & + .nav-list-link {
-
       }
     }
 
@@ -89,31 +103,36 @@
 
       .nav-list-item {
         position: relative;
+        cursor: pointer;
 
-        .nav-list-link {
-          // color: $primary-color;
+        > .nav-list {
+          display: block;
         }
 
-        .nav-list-expander {
-          // color: $primary-color;
+        > a.nav-list-link {
+          color: #474747;
+
+          &:hover {
+            color: var(--primary-color);
+          }
         }
       }
     }
 
     &.-active {
       > a.nav-list-link {
-          color: $primary-color;
+        color: var(--primary-color);
 
-          &:visited {
-            color: $primary-color;
-          }
+        &:visited {
+          color: var(--primary-color);
+        }
       }
 
       > .nav-list-expander {
-          svg {
-            transform: rotate(90deg);
-            color: $primary-color;
-          }
+        svg {
+          transform: rotate(90deg);
+          color: var(--primary-color);
+        }
       }
 
       > .nav-list {

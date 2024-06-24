@@ -28,7 +28,6 @@
             letter-spacing: -0.5px;
             color: var(--frontHex);
             transition: color 100ms $ease;
-            outline: none;
             white-space: nowrap;
 
             svg {
@@ -46,16 +45,17 @@
                 color: $site-title-color;
             }
 
-            &:focus {
-                background-color: rgba($primary-color, 0.05);
+            &:focus-visible {
+                outline: 2px solid var(--primary-color);
+                background-color: rgba(var(--primary-color), 0.05);
             }
 
             &:hover {
-                color: $primary-color;
+                color: var(--primary-color);
                 text-decoration: none;
 
                 svg {
-                    color: $primary-color;
+                    color: var(--primary-color);
                 }
             }
         }
@@ -71,12 +71,16 @@
                 font-weight: 500;
 
                 &:hover {
-                    color: $primary-color;
+                    color: var(--primary-color);
                     text-decoration: none;
                 }
 
+                &:focus-visible {
+                    background-color: rgba(var(--primary-color), 0.1);
+                }
+
                 &.active {
-                    color: $primary-color;
+                    color: var(--primary-color);
                 }
             }
 
@@ -93,8 +97,6 @@
             background-color: transparent;
             padding: 0;
             width: 60px;
-            outline: none;
-            margin-left: 10px;
 
             svg {
                 width: 44px;
@@ -103,19 +105,19 @@
                 transition: color 100ms linear;
             }
 
-            &:focus {
-                background-color: rgba($primary-color, 0.05);
+            &:focus-visible {
+                background-color: rgba(var(--primary-color), 0.05);
             }
 
             &:hover {
                 svg {
-                    color: $primary-color;
+                    color: var(--primary-color);
                 }
             }
 
             &.-active {
                 svg {
-                    color: $primary-color;
+                    color: var(--primary-color);
                 }
             }
         }
@@ -132,7 +134,6 @@
             box-shadow: 0 10px 25px -5px rgba(var(--front), 0.1);
             border-bottom-left-radius: 3px;
             border-bottom-right-radius: 3px;
-            // border-bottom: 1px solid rgba(var(--front), 0.1);
 
             form {
                 position: relative;
@@ -150,9 +151,8 @@
                     position: relative;
                     background-color: transparent;
 
-                    &:focus {
+                    &:focus-visible {
                         outline: none;
-
                     }
                 }
             }
@@ -163,16 +163,6 @@
 
                 form {
                     border: 1px solid rgba(var(--front), 0.05);
-                    // &:before {
-                    //     display: block;
-                    //     content: '';
-                    //     position: absolute;
-                    //     top: 0;
-                    //     left: 0;
-                    //     width: 100%;
-                    //     height: 100%;
-                    //     border: 1px solid $primary-color;
-                    // }
                 }
             }
 
@@ -194,6 +184,16 @@
                         line-height: 1.2;
                         color: var(--frontHex);
                         transition: color 100ms $ease;
+
+                        span {
+                            margin-left: 5px;
+                            vertical-align: middle;
+                            display: inline-block;
+                            width: 8px;
+                            height: 8px;
+                            border-radius: 4px;
+                            transform: translateY(-1px);
+                        }
                     }
 
                     a {
@@ -211,10 +211,10 @@
 
                         &:hover {
                             text-decoration: none;
-                            background-color: rgba($primary-color, 0.05);
+                            background-color: rgba(var(--primary-color), 0.05);
 
                             h3 {
-                                color: $primary-color;
+                                color: var(--primary-color);
                             }
                         }
                     }
@@ -253,19 +253,19 @@
                 background-color: transparent;
                 padding: 0;
                 border-width: 0;
-                outline: none;
+                // outline: none;
 
                 svg {
                     width: 44px;
                     height: 44px;
                 }
 
-                &:focus {
-                    background-color: rgba($primary-color, 0.05);
+                &:focus-visible {
+                    background-color: rgba(var(--primary-color), 0.05);
                 }
 
                 &:hover {
-                    color: $primary-color;
+                    color: var(--primary-color);
                 }
             }
 
@@ -311,6 +311,19 @@
                     }
                 }
 
+                .nav-list-expander {
+                  width: 34px;
+                  height: 34px;
+                }
+
+                .nav-list-divider {
+                    margin-left: 45px;
+                }
+
+                .nav-list-category {
+                    padding-left: 45px;
+                }
+
                 .nav-list {
                     button {
                         margin-left: 10px;
@@ -334,7 +347,7 @@
 
                 .nav-trigger {                    
                     svg {
-                        fill: $primary-color;
+                        fill: var(--primary-color);
                     }
                 }
             }
@@ -354,9 +367,11 @@
             .site-nav {
                 display: flex;
                 margin-left: auto;
+                gap: 20px;
 
                 .page-link {
-                    margin-left: 40px;
+                    padding-left: 10px;
+                    padding-right: 10px;
 
                     &:after {
                         display: block;
@@ -367,7 +382,7 @@
                         bottom: -1px;
                         height: 1px;
                         opacity: 0;
-                        background-color: $primary-color;
+                        background-color: var(--primary-color);
                     }
 
                     &.active {

@@ -1,8 +1,8 @@
 ---
 layout: guide
 title: Visual language
-description: A short history of the visuals that we associate with Bitcoin, from the first symbol to the HODL meme.
-nav_order: 5
+description: A short history of the visuals that we associate with bitcoin, from the first symbol to the HODL meme.
+nav_order: 4
 parent: Getting started
 permalink: /guide/getting-started/visual-language/
 main_classes: -no-top-padding
@@ -17,10 +17,12 @@ A brief history of bitcoin "branding" and the visual culture around bitcoin.
 
 A good addition would be a summary of the basic brand elements (color, symbol...).
 
-Illustration sources
+Source for the header image:
+https://www.dropbox.com/sh/zqnc7dbg8j5as8d/AAACidCqqJ_R11_jl0-HcA4ta?dl=0
 
-- https://www.figma.com/file/qzvCvqhSRx3Jq8aywaSjlr/Bitcoin-Design-Guide-Illustrations-CO?node-id=887%3A151
-- https://www.dropbox.com/sh/zqnc7dbg8j5as8d/AAACidCqqJ_R11_jl0-HcA4ta?dl=0
+Source for images used on the page:
+- https://www.figma.com/file/ceVqp2xyQttnGc2h0AbZ8g/Bitcoin-Visual-Language?node-id=191%3A233&t=zLzHdkwveWgvIbRs-1
+- https://www.figma.com/file/3RmrEH8560q4IgzVsvDm65/Bitcoin-Visual-Language-SBD?node-id=0%3A1&t=y51xXOeaaL1Y2JWB-1
 
 -->
 
@@ -29,15 +31,15 @@ image = "/assets/images/guide/getting-started/visual-language/bitcoin-visual-lan
 retina = "/assets/images/guide/getting-started/visual-language/bitcoin-visual-language@2X.jpg"
 mobile = "/assets/images/guide/getting-started/visual-language/bitcoin-visual-language-mobile.jpg"
 mobileRetina = "/assets/images/guide/getting-started/visual-language/bitcoin-visual-language-mobile@2X.jpg"
-alt-text = "Illustration of two people having a conversation, each of them having a speech bubble with a different stylized version of the Bitcoin ₿"
+alt-text = "Illustration of two people having a conversation, each of them having a speech bubble with a different stylized version of the bitcoin ₿"
 width = 1600
 height = 600
 layout = "full-width"
 %}
 
-# The visual language of Bitcoin
+# The visual language of bitcoin
 
-Since Bitcoin answers to no central authority, there is no single symbol or logo that can visually represent it, though many try. Here are some of the most recognized attempts to create a universal logo for Bitcoin.
+Since bitcoin answers to no central authority, there is no single symbol or logo that can visually represent it, though many try. Here are some of the most recognized attempts to create a universal logo for bitcoin.
 
 ## Original symbol
 
@@ -46,22 +48,22 @@ Since Bitcoin answers to no central authority, there is no single symbol or logo
 {% include image.html
    image = "/assets/images/guide/getting-started/visual-language/satoshi-2010.png"
    retina = "/assets/images/guide/getting-started/visual-language/satoshi-2010@2x.png"
-   alt-text = "The original Bitcoin symbol from 2010"
+   alt-text = "The original bitcoin symbol from 2010"
    width = 140
    height = 140
    layout = "float-left"
 %}
 
-Satoshi Nakamoto created this lettered golden coin for the original Bitcoin Core client, [released on January 9, 2009](https://web.archive.org/web/20140326174921/http://www.mail-archive.com/cryptography@metzdowd.com/msg10142.html).
+Satoshi Nakamoto created this lettered golden coin for the original Bitcoin client, [released on January 9, 2009](https://web.archive.org/web/20140326174921/http://www.mail-archive.com/cryptography@metzdowd.com/msg10142.html).
 
 </div>
 
 <div class="image-gallery" markdown="1">
 
 {% include image.html
-   image = "/assets/images/guide/getting-started/visual-language/early-bitcoin-core-wallet.jpg"
-   alt-text = "Screenshot of an early version of the Bitcoin Core application"
-   caption = "The original logo in an early version of the Bitcoin Core wallet."
+   image = "/assets/images/guide/getting-started/visual-language/early-bitcoin-wallet.jpg"
+   alt-text = "Screenshot of an early version of the Bitcoin client"
+   caption = "The original logo in an early version of the Bitcoin client."
    width = 640
    height = 300
 %}
@@ -75,7 +77,7 @@ Satoshi Nakamoto created this lettered golden coin for the original Bitcoin Core
 {% include image.html
    image = "/assets/images/guide/getting-started/visual-language/satoshi-update-2010.png"
    retina = "/assets/images/guide/getting-started/visual-language/satoshi-update-2010@2x.png"
-   alt-text = "Updated version of the Bitcoin symbool"
+   alt-text = "Updated version of the bitcoin symbool"
    width = 140
    height = 140
    layout = "float-left"
@@ -92,7 +94,7 @@ On February 24, 2010, Satoshi posted an updated icon that adopted the capital �
 {% include image.html
    image = "/assets/images/guide/getting-started/visual-language/bitboy-2011.png"
    retina = "/assets/images/guide/getting-started/visual-language/bitboy-2011@2x.png"
-   alt-text = "A new version of the Bitcoin symbol that we still use today"
+   alt-text = "A new version of the bitcoin symbol that we still use today"
    width = 140
    height = 140
    layout = "float-left"
@@ -102,7 +104,7 @@ On November 1, 2010, a user named bitboy proposed a new icon and set of promotio
 
 </div>
 
-#### Download Bitcoin Symbol
+#### Download bitcoin Symbol
 
 [SVG]({{'/assets/images/guide/getting-started/visual-language/bitcoin-symbol.svg' | relative_url }}){: .button download=""}
 [PNG]({{'/assets/images/guide/getting-started/visual-language/bitcoin-symbol.png' | relative_url }}){: .button.-outline download=""}
@@ -112,7 +114,7 @@ On November 1, 2010, a user named bitboy proposed a new icon and set of promotio
 {% include image.html
    image = "/assets/images/guide/getting-started/visual-language/bitboy-promotional-graphics.png"
    retina = "/assets/images/guide/getting-started/visual-language/bitboy-promotional-graphics@2x.png"
-   alt-text = "Promotional Bitcoin graphics like buttons and stickers"
+   alt-text = "Promotional bitcoin graphics like buttons and stickers"
    caption = "Promotional graphics created by bitboy."
    width = 573
    height = 567
@@ -133,25 +135,25 @@ On November 1, 2010, a user named bitboy proposed a new icon and set of promotio
    layout = "float-left"
 %}
 
-The Unicode symbol for Bitcoin (₿) was introduced in [Unicode 10.0.0](http://www.unicode.org/versions/Unicode10.0.0/) on June 20, 2017. This important step established Bitcoin as a currency symbol alongside the US Dollar ($), Euro (€), and others. As of mid-2021, few fonts support the symbol.
+The Unicode symbol for bitcoin (₿) was introduced in [Unicode 10.0.0](http://www.unicode.org/versions/Unicode10.0.0/) on June 20, 2017. This important step established bitcoin as a currency symbol alongside the US Dollar ($), Euro (€), and others. As of mid-2021, few fonts support the symbol.
 
 </div>
 
 ## The Satoshi symbol
 
-As the price of bitcoin has increased, and the [Lightning network]({{ '/guide/glossary/#lightning-network' | relative_url }}) has facilitated low-value payments, it has become common for people to denominate bitcoin with the "satoshi". See the [Units & Symbols]({{ '/guide/payments/units-and-symbols/' | relative_url }}) section for more detailed information about bitcoin units.
+As the price of bitcoin has increased, and the [lightning network]({{ '/guide/glossary/#lightning-network' | relative_url }}) has facilitated low-value payments, it has become common for people to denominate bitcoin with the "satoshi". See the [Units & Symbols]({{ '/guide/designing-products/units-and-symbols/' | relative_url }}) section for more detailed information about bitcoin units.
 
-There is currently not an agreed upon symbol to represent the satoshi (or if there should even be one), however, many ideas are in circulation.
+There is currently not an agreed-upon symbol to represent the satoshi (or if there should even be one). However, many ideas are in circulation.
 
 <div class="image-gallery" markdown="1">
 
 {% include image.html
-image = "/assets/images/guide/getting-started/visual-language/satoshi-symbols.png"
-retina = "/assets/images/guide/getting-started/visual-language/satoshi-symbols@2x.png"
-alt-text = "Sequence of images showing proposals for satoshi symbols"
-caption = "References from top left to bottom right, Keith, <a href='http://satbase.org/' target='_blank'>2</a>, <a href='https://www.reddit.com/r/Bitcoin/comments/ku9nl8/design_proposal_for_the_satoshi_symbol/' target='_blank'>3</a>, <a href='https://twitter.com/PLK5280/status/1326347333219606528' target='_blank'>4</a>, <a href='https://www.reddit.com/r/Bitcoin/comments/ku9nl8/design_proposal_for_the_satoshi_symbol/' target='_blank'>5</a>, Jeremiah, Alexa, <a href='https://satsymbol.com/' target='_blank'>8</a>, <a href='https://twitter.com/BitkoYinowsky' target='_blank'>9</a>, <a href='https://twitter.com/sbtlaln/status/1361368643238567951' target='_blank'>10</a>, <a href='https://www.reddit.com/r/Bitcoin/comments/k0e98n/my_proposal_for_the_satish_symbol_still_looks/' target='_blank'>11</a>, and <a href='https://www.reddit.com/r/Bitcoin/comments/ku9nl8/design_proposal_for_the_satoshi_symbol/' target='_blank'>12</a>."
-width = 800
-height = 504
+   image = "/assets/images/guide/getting-started/visual-language/satoshi-symbols.png"
+   retina = "/assets/images/guide/getting-started/visual-language/satoshi-symbols@2x.png"
+   alt-text = "Sequence of images showing proposals for satoshi symbols"
+   caption = "References from top left to bottom right, unknown author, <a href='http://satbase.org/' target='_blank'>2</a>, <a href='https://www.reddit.com/r/Bitcoin/comments/ku9nl8/design_proposal_for_the_satoshi_symbol/' target='_blank'>3</a>, <a href='https://twitter.com/PLK5280/status/1326347333219606528' target='_blank'>4</a>, <a href='https://www.reddit.com/r/Bitcoin/comments/ku9nl8/design_proposal_for_the_satoshi_symbol/' target='_blank'>5</a>, Jeremiah, Alexa, <a href='https://satsymbol.com/' target='_blank'>8</a>, <a href='https://twitter.com/BitkoYinowsky' target='_blank'>9</a>, <a href='https://twitter.com/sbtlaln/status/1361368643238567951' target='_blank'>10</a>, <a href='https://www.reddit.com/r/Bitcoin/comments/k0e98n/my_proposal_for_the_satish_symbol_still_looks/' target='_blank'>11</a>, and <a href='https://www.reddit.com/r/Bitcoin/comments/ku9nl8/design_proposal_for_the_satoshi_symbol/' target='_blank'>12</a>."
+   width = 800
+   height = 570
 %}
 
 </div>
@@ -196,7 +198,7 @@ Some of the most common representations of bitcoin are based on Satoshi’s orig
 
 ### Illustrations
 
-Magazines, blogs, and other publications often hire professional illustrators to visualize stories about Bitcoin. Because Bitcoin does not have any official brand style guidelines, they are usually only limited by the illustrator and publisher’s imagination.
+Magazines, blogs, and other publications often hire professional illustrators to visualize stories about bitcoin. Because bitcoin does not have any official brand style guidelines, they are usually only limited by the illustrator and publisher’s imagination.
 
 <div class="image-gallery" markdown="1">
 
@@ -213,7 +215,7 @@ Magazines, blogs, and other publications often hire professional illustrators to
 
 ## The expression scale
 
-Think about Bitcoin’s visual language as a scale that ranges from muted to highly expressive. These images look very different, but they all capture Bitcoin in some way. As the identity of Bitcoin is public and community-owned, all these representations are equally valid. This provides enormous creative freedom to designers and illustrators with their own visions.
+Think about bitcoin’s visual language as a scale that ranges from muted to highly expressive. These images look very different, but they all capture bitcoin in some way. As the identity of bitcoin is public and community-owned, all these representations are equally valid. This provides enormous creative freedom to designers and illustrators with their own visions.
 
 {% include image.html
    image = "/assets/images/guide/getting-started/visual-language/expression-scale.png"
@@ -224,43 +226,43 @@ Think about Bitcoin’s visual language as a scale that ranges from muted to hig
    height = 133
 %}
 
-In digital product design, there are times when a minimally expressive approach is what’s needed. For example, when a user makes a transaction, we want them to focus. At other times, illustrations and stronger visual elements are more appropriate, and this is where we can take advantage of the creative freedom Bitcoin affords.
+In digital product design, there are times when a minimally expressive approach is what’s needed. For example, when a user makes a transaction, we want them to focus. At other times, illustrations and stronger visual elements are more appropriate, and this is where we can take advantage of the creative freedom bitcoin affords.
 
-## The Lightning network
+## The lightning network
 
 
-Since the first Lightning implementation in 2018, a distinct visual identity has developed around the Lightning network based on a simple yellow lightning bolt icon. Sometimes, Lightning software and services completely forego common elements of Bitcoin branding (the color orange, the Bitcoin symbol, etc.) and instead use the color yellow, a lightning bolt symbol, and metaphors for electricity.
+Since the first lightning implementation in 2018, a distinct visual identity has developed around the lightning network based on a simple yellow lightning bolt icon. Sometimes, lightning software and services completely forego common elements of bitcoin branding (the color orange, the bitcoin symbol, etc.) and instead use the color yellow, a lightning bolt symbol, and metaphors for electricity.
 
 <div class="image-gallery" markdown="1">
 
 {% include image.html
-image = "/assets/images/guide/getting-started/visual-language/bitcoin-lightning-branding.jpg"
-retina = "/assets/images/guide/getting-started/visual-language/bitcoin-lightning-branding@2x.jpg"
-alt-text = "Sequence of images showing examples of logos and brands for lightning software and services"
-caption = "References from top top bottom, left to right: <a href='https://www.walletofsatoshi.com/' target='_blank'>1</a>, <a href='https://shop.fulmo.org/raspiblitz/' target='_blank'>2</a>, <a href='https://www.lightningnetworkstores.com/' target='_blank'>3</a>, <a href='https://zeusln.app/' target='_blank'>4</a>, and <a href='https://lightning.store/product/bitcoin-rtl-t-shirt/' target='_blank'>5</a>."
-width = 800
-height = 584
+   image = "/assets/images/guide/getting-started/visual-language/bitcoin-lightning-branding.jpg"
+   retina = "/assets/images/guide/getting-started/visual-language/bitcoin-lightning-branding@2x.jpg"
+   alt-text = "Sequence of images showing examples of logos and brands for lightning software and services"
+   caption = "References from top top bottom, left to right: <a href='https://www.walletofsatoshi.com/' target='_blank'>1</a>, <a href='https://shop.fulmo.org/raspiblitz/' target='_blank'>2</a>, <a href='https://www.lightningnetworkstores.com/' target='_blank'>3</a>, <a href='https://zeusln.app/' target='_blank'>4</a>, and <a href='https://lightning.store/product/bitcoin-rtl-t-shirt/' target='_blank'>5</a>."
+   width = 800
+   height = 584
 %}
 
 </div>
 
-## Should Lightning be distinct from Bitcoin?
+## Should lightning be distinct from bitcoin?
 
-While Lightning branding can be fun and expressive, it may give new Bitcoin users the impression that Lightning is different from Bitcoin. More accurately, Lightning should be thought of as a different way of using bitcoin, not as a different currency than bitcoin.
+While lightning branding can be fun and expressive, it may give new bitcoin users the impression that lightning is different from bitcoin. More accurately, lightning should be considered a different way of using bitcoin, not as a different currency than bitcoin.
 
 #### Consider your audience
 
-Are you developing Bitcoin products that are intended to be used primarily by developers or people who are very experienced with Bitcoin? If so, Lightning branding may be a great choice for your product.
+Are you developing bitcoin products that are intended to be used primarily by developers or people who are very experienced with bitcoin? If so, lightning branding may be a great choice for your product.
 
-Are you developing products intended for Bitcoin beginners? If so, consider minimizing or altogether avoiding Lightning branding. Instead, focus on what your user needs or wants. For example, the term "instant payment" could be far more informative to this user than the term "Lightning payment".
+Are you developing products intended for bitcoin beginners? If so, consider minimizing or altogether avoiding lightning branding. Instead, focus on what your user needs or wants. For example, the term "instant payment" could be far more informative to this user than the term "lightning payment".
 
 ---
 
-As you have seen, Bitcoin is shaped by its user base. Now, let's go under the hood with the [technology primer]({{ '/guide/getting-started/technology-primer/' | relative_url }}).
+As you have seen, bitcoin is shaped by its user base. Now, let's go under the hood with the [technology primer]({{ '/guide/getting-started/technology-primer/' | relative_url }}).
 
 {% include next-previous.html
-   previousUrl = "/guide/getting-started/why-bitcoin-is-unique/"
-   previousName = "Why Bitcoin is unique"
+   previousUrl = "/guide/getting-started/open-design/"
+   previousName = "Why bitcoin is unique"
    nextUrl = "/guide/getting-started/technology-primer/"
    nextName = "Technology primer"
 %}

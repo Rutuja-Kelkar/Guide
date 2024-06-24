@@ -28,13 +28,15 @@ Anyone can make a difference and become a contributor. This page explains how to
 
 ## GitHub
 
-The entire source code and content of the guide are hosted in a cloud, [on GitHub](https://github.com/BitcoinDesign/Guide/). GitHub is a collaborative platform which at its core has a distributed version control system called [Git](https://git-scm.com/). GitHub doesn't just host the code, it also allows smooth collaboration and interaction between contributors.
+The entire source code and content of the guide are hosted in a cloud, [on GitHub](https://github.com/BitcoinDesign/Guide/). GitHub is a collaborative platform which at its core, has a distributed version control system called [Git](https://git-scm.com/). GitHub doesn't just host the code, it also allows smooth collaboration and interaction between contributors.
+
+A complete course in using GitHub is beyond the scope of this guide. If you are looking to learn more, GitHub has created a series of self-guided tutorials called [GitHub Skills](https://skills.github.com).
 
 {% include youtube.html id="JnXVzE_V7kw" %}
 
 ### Prerequisites
 
-While advanced users can interact with GitHub through a command line, this guide focuses on showing how to work with Git locally, by using the following software:
+While advanced users can interact with GitHub through a command line, this guide focuses on showing how to work with Git locally by using the following software:
 
 1. Create a [GitHub account](https://github.com/)
 2. [Download and install GitHub Desktop](https://desktop.github.com/) (macOS and Windows) / [Linux](https://github.com/shiftkey/desktop)
@@ -46,10 +48,11 @@ If you're looking to help, but not sure where to begin:
 
 - Check issues labeled as [Good first issue](https://github.com/BitcoinDesign/Guide/issues?q=is%3Aissue+is%3Aopen+label%3A%22good+first+issue%22)
 - Check issues labeled as [Design](https://github.com/BitcoinDesign/Guide/issues?q=is%3Aissue+is%3Aopen+label%3Adesign)
-- Consult the community [on Slack]({{ site.slack_invite_url }}) or start a [GitHub discussion](https://github.com/BitcoinDesign/Guide/discussions/new) with your proposal
+- Consult the community [on Discord]({{ site.discord_invite_url }}) or start a [GitHub discussion](https://github.com/BitcoinDesign/Guide/discussions/new) with your proposal
 - Browse [bitcoin.design](https://bitcoin.design/guide) test it and try to identify issues yourself
+- Review [the survey](https://github.com/BitcoinDesign/Meta/issues/320) we did on the guide and think of ways to address the feedback
 
-For more challenging pieces of work, a new page, or a new chapter, it's a good idea to talk to the community and seek consensus before you begin working on it. This helps avoid work duplication and makes sure your efforts are aligned with the community-determined goals.
+For more challenging pieces of work, a new page, or a new chapter, it's a good idea to talk to the community and seek consensus before you begin working on it. This helps avoid work duplication and ensures your efforts are aligned with the community-determined goals.
 
 ### Getting started
 
@@ -86,7 +89,7 @@ To fork a repository[^1]:
 
 #### Creating a branch
 
-A branch[^2] allows you to have a _contained area_ where you can make any changes, without going out of sync with the cloned version.
+A branch[^2] allows you to have a _contained area_ where you can make any changes without going out of sync with the cloned version.
 
 The cloned version will reside on the `master branch`, while any changes should be done on separate branches. This isn't a strict rule, it's the best practice that would allow you to easier sync your copy with the original (upstream) version of the design guide.
 

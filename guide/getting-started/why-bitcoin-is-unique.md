@@ -1,12 +1,20 @@
 ---
 layout: guide
-title: Why Bitcoin is unique
-description: Overview of the most important traits that give Bitcoin its special role as a digital payment network.
-nav_order: 2
+title: Why bitcoin is unique
+description: Overview of the most important traits that give bitcoin its special role as a digital payment network.
+nav_order: 1
 parent: Getting started
 permalink: /guide/getting-started/why-bitcoin-is-unique/
 main_classes: -no-top-padding
 image: https://bitcoin.design/assets/images/guide/getting-started/why-bitcoin-is-unique/why-bitcoin-is-unique-preview.jpg
+video_base: /assets/images/guide/getting-started/why-bitcoin-is-unique/
+videos:
+    - youtubeId: oubZGyDY4Dc
+      file: bitcoin-is-for-everyone-hello-bitcoin
+      caption: Bitcoin is for everyone via Hello Bitcoin
+    - youtubeId: l1si5ZWLgy0
+      file: what-is-bitcoin-and-why-does-it-matter
+      caption: What is bitcoin and why does it matter?
 ---
 
 <!--
@@ -34,7 +42,7 @@ Illustration sources
    layout = "full-width"
 %}
 
-# Why Bitcoin is unique
+# Why bitcoin is unique
 
 The Internet lets people anywhere instantly exchange ideas and information with people everywhere. Bitcoin takes this further by giving everyone a built-in method for storing and transferring value online.
 
@@ -69,7 +77,7 @@ In addition, six fundamental properties define whether or not a currency can act
 
 Although bitcoin is purely digital, it meets every classical definition of what makes something money. Instead of relying on physical properties (like gold and silver) or central authorities (like government-issued fiat currencies), bitcoin relies on the world’s most powerful [computer network]({{ '/guide/glossary/node/' | relative_url }}) to mathematically enforce the rules that make it the first truly digital form of cash.
 
-Natively digital money can also be extended in previously unthinkable ways. From smart contracts to Layer 2 solutions like the Lightning Network that enable faster and cheaper payments, Bitcoin can get built upon to enable new and evolving use cases.
+Natively digital money can also be extended in previously unthinkable ways. From smart contracts to Layer 2 solutions like the lightning network that enable faster and cheaper payments, bitcoin can get built upon to enable new and evolving use cases.
 </div>
 
 ## There's a limited supply
@@ -79,21 +87,20 @@ Natively digital money can also be extended in previously unthinkable ways. From
 {% include image.html
    image = "/assets/images/guide/getting-started/why-bitcoin-is-unique/supply.jpg"
    retina = "/assets/images/guide/getting-started/why-bitcoin-is-unique/supply@2x.jpg"
-   alt-text = "Chart showing how the Bitcoin network relies on addresses and not real-life identities"
+   alt-text = "Chart showing how the bitcoin network relies on addresses and not real-life identities"
    caption = ""
    width = 400
    height = 400
    layout = "float-right-desktop"
 %}
 
-There will never be more than 21 million bitcoin. The creation of new bitcoin is mathematically defined and strictly enforced by the Bitcoin network. This is different from fiat currencies, which may experience supply changes due to government decisions, which in turn can have various effects on economies and economic behavior. For an independent, global asset like bitcoin, the rigid supply dynamics are a big benefit, as they create reliability and trust.
+There will never be more than 21 million bitcoin. The creation of new bitcoin is mathematically defined and strictly enforced by the bitcoin network. This is different from fiat currencies, which may experience supply changes due to government decisions, which in turn can have various effects on economies and economic behavior. For an independent, global asset like bitcoin, the rigid supply dynamics are a big benefit, as they create reliability and trust.
 
 </div>
 
 ## You own it
 
-When you take cash out of your bank account, it becomes your responsibility. If you lose it, it’s lost. If you transact with it, no middleman can block the transaction. Either way, you are its custodian—this is bitcoin in a nutshell. It’s digital, [self-custodial]({{ '/guide/designing-products/principles/#self-custody' | relative_url }}) cash.
-
+When you take cash out of your bank account, it becomes your responsibility. If you lose it, it’s lost. If you transact with it, no middleman can block or reverse the transaction. Either way, you are its custodian—this is bitcoin in a nutshell. It’s digital, [self-custodial]({{ '/guide/getting-started/principles/#self-custody' | relative_url }}) cash.
 
 Bitcoin combines the custodial benefits of physical cash with the convenience of online banking and payment processing. But unlike your bank, bitcoin has never been hacked. So as long as you responsibly [manage your private keys]({{ '/guide/private-key-management/introduction/' | relative_url }}), not only do you own your bitcoin, no one can take them away.
 
@@ -108,14 +115,14 @@ If you can access the Internet, you can access bitcoin. As of 2019, roughly [53.
 {% include image.html
    image = "/assets/images/guide/getting-started/why-bitcoin-is-unique/equality.jpg"
    retina = "/assets/images/guide/getting-started/why-bitcoin-is-unique/equality@2x.jpg"
-   alt-text = "Chart showing how the Bitcoin network relies on addresses and not real-life identities"
+   alt-text = "Chart showing how the bitcoin network relies on addresses and not real-life identities"
    caption = ""
    width = 400
    height = 400
    layout = "float-right-desktop"
 %}
 
-Bitcoin uses [scrambled, pseudonymous strings of letters and numbers]({{ '/guide/glossary/address/' | relative_url }}) in place of personal information, real-life identities, and even usernames. It treats everyone from individuals to corporations and governments the same. [No group has the power]({{ '/guide/designing-products/principles/#decentralization' | relative_url }}) to censor transactions, shut others out of the network, or confiscate another’s bitcoin. While certain services might discriminate or request personal information, the Bitcoin network not only won’t, but can’t.
+Bitcoin uses [scrambled, pseudonymous strings of letters and numbers]({{ '/guide/glossary/address/' | relative_url }}) in place of personal information, real-life identities, and even usernames. It treats everyone from individuals to corporations and governments the same. [No group has the power]({{ '/guide/getting-started/principles/#decentralization' | relative_url }}) to censor transactions, shut others out of the network, or confiscate another’s bitcoin. While certain services might discriminate or request personal information, the bitcoin network not only won’t, but can’t.
 
 </div>
 
@@ -128,15 +135,21 @@ However, because bitcoin is unbiased, open, and public, it can serve communities
 
 ## It is open-source
 
-It's only appropriate that the bitcoin ecosystem is being developed by teams and individuals worldwide. Not many financial institutions allow anyone to participate and contribute to them. So it’s fitting that bitcoin almost exclusively relies on [collaboration]({{ '/guide/designing-products/open-design/' | relative_url }}) between volunteers from around the world to keep it running and evolving.
+It's only appropriate that the bitcoin ecosystem is being developed by teams and individuals worldwide. Not many financial institutions allow anyone to participate and contribute to them. So it’s fitting that bitcoin almost exclusively relies on [collaboration]({{ '/guide/getting-started/open-design/' | relative_url }}) between volunteers from around the world to keep it running and evolving.
+
+## Resources
 
 ---
 
-Still not sure where to start? Check out the next section, [the visual language of bitcoin]({{ '/guide/getting-started/visual-language/' | relative_url }}).
+{% include videos.html video_base = page.video_base videos = page.videos %}
+
+---
+
+Why participate as a designer in bitcoin? See the next section, [why design for bitcoin]({{ '/guide/getting-started/why-design-for-bitcoin/' | relative_url }}).
 
 {% include next-previous.html
    previousUrl = "/guide/getting-started/introduction/"
    previousName = "Getting started"
-   nextUrl = "/guide/getting-started/visual-language/"
-   nextName = "Visual language"
+   nextUrl = "/guide/getting-started/why-design-for-bitcoin/"
+   nextName = "Why design for bitcoin"
 %}

@@ -1,7 +1,7 @@
 ---
 layout: guide
 title: Getting started
-description: Learn the basics of Bitcoin, from a history of visuals to available software and hardware categories.
+description: Learn the basics of bitcoin, from a history of visuals to available software and hardware categories.
 nav_order: 2
 has_children: true
 permalink: /guide/getting-started/introduction/
@@ -35,37 +35,54 @@ Illustration sources
 
 # Getting started
 
-Welcome to the Bitcoin Design Guide! You’re in for an adventure. This chapter is all about the big concepts that are helpful to be familiar with when creating Bitcoin products. You’ll find a summary of concepts on this page, click through if you would like to dig deeper into a specific topic. The guide isn't a comprehensive overview of all Bitcoin topics, but only the ones you should know as a designer working in this space.
+Welcome to the Bitcoin Design Guide! You’re in for an adventure. This chapter is all about the big concepts that are helpful to be familiar with when creating bitcoin products. You’ll find a summary of concepts on this page. Click through if you would like to dig deeper into a specific topic. The guide isn't a comprehensive overview of all bitcoin topics, but only the ones you should know as a designer working in this space.
 
 ---
 
-### [Why Bitcoin is unique]({{ '/guide/getting-started/why-bitcoin-is-unique/' | relative_url }})
+### [Why bitcoin is unique]({{ '/guide/getting-started/why-bitcoin-is-unique/' | relative_url }})
 
 The internet has opened an infinite design space for information and communication. Bitcoin adds the new dimension of transferring value that could bring similar change as previous waves of innovation.
 
 ---
 
-### [The visual language of Bitcoin]({{ '/guide/getting-started/visual-language/' | relative_url }})
+### [Why design for bitcoin]({{ '/guide/getting-started/why-design-for-bitcoin/' | relative_url }})
 
-As an open and public protocol, Bitcoin does not have a strictly defined brand. Yet there is a recognizable symbol that has evolved and remixed endlessly.
+Bitcoin is fundamentally open and participatory and allows designers and creators to explore and shape experiences for users around the globe.
+
+---
+
+### [Open design]({{ '/guide/getting-started/open-design/' | relative_url }})
+
+Open design is about global collaboration that balances the free exchange of design information, the independence of individual designers and the collective power of collaboration.
+
+---
+
+### [The visual language of bitcoin]({{ '/guide/getting-started/visual-language/' | relative_url }})
+
+As an open and public protocol, bitcoin does not have a strictly defined brand. Yet there is a recognizable symbol that has evolved and remixed endlessly.
 
 ---
 
 ### [Technology primer]({{ '/guide/getting-started/technology-primer/' | relative_url }})
 
-Learn the basics behind the technologies that make Bitcoin work, from what a Bitcoin is to how transactions are confirmed.
+Learn the basics behind the technologies that make bitcoin work, from what a bitcoin is to how transactions are confirmed.
 
 ---
 
-### [Software overview]({{ '/guide/getting-started/software/' | relative_url }})
+### [Bitcoin design principles]({{ '/guide/getting-started/principles/' | relative_url }})
+
+Core bitcoin design principles recommended by the Bitcoin Design Community.
+
+---
+### [Software categories]({{ '/guide/getting-started/software/' | relative_url }})
 
 Bitcoin applications roughly fall into a defined set of categories, from consumer-friendly wallets, to merchant tools, and more.
 
 ---
 
-### [Hardware overview]({{ '/guide/getting-started/hardware/' | relative_url }})
+### [Hardware categories]({{ '/guide/getting-started/hardware/' | relative_url }})
 
-Whether it's for security or participating in the network, Bitcoin hardware is an essential part of the ecosystem and user experience.
+Whether for security or participating in the network, bitcoin hardware is an essential part of the ecosystem and user experience.
 
 ---
 
@@ -73,5 +90,5 @@ Whether it's for security or participating in the network, Bitcoin hardware is a
    previousUrl = "/guide/"
    previousName = "Introduction"
    nextUrl = "/guide/getting-started/why-bitcoin-is-unique/"
-   nextName = "Why Bitcoin is unique"
+   nextName = "Why bitcoin is unique"
 %}

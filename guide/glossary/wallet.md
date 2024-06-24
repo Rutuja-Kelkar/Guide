@@ -1,12 +1,24 @@
 ---
 layout: guide
 title: Wallet
-description: This term is often used interchangeably for very different things relating to Bitcoin key and fund management.
+description: This term is often used interchangeably for very different things relating to bitcoin key and fund management.
 parent: Glossary
 nav_order: 2
 permalink: /guide/glossary/wallet/
 main_classes: -no-top-padding
+image: https://bitcoin.design/assets/images/guide/glossary/wallet-header-preview.jpg
 ---
+
+{% include picture.html
+   image = "/assets/images/guide/glossary/wallet-header.jpg"
+   retina = "/assets/images/guide/glossary/wallet-header@2x.jpg"
+   mobile = "/assets/images/guide/glossary/wallet-header-mobile.jpg"
+   mobileRetina = "/assets/images/guide/glossary/wallet-header-mobile@2x.jpg"
+   alt-text = "Two leather wallets"
+   width = 1600
+   height = 600
+   layout = "full-width"
+%}
 
 # Wallet
 
@@ -27,7 +39,7 @@ This term is often used interchangeably for very different things. A user can *d
 
 #### Bitcoin wallet
 
-All bitcoin-related data derived from and associated with a single recovery phrase. Most modern bitcoin wallets are HD wallets.
+All bitcoin-related data derived from and associated with a single [recovery phrase]({{ '/guide/glossary/#recovery-phrase' | relative_url }}). Most modern bitcoin wallets are HD wallets.
 
 #### HD wallet
 
@@ -49,8 +61,8 @@ _Also known as unhosted / self-hosted / hosted wallet._
 
 A non-custodial wallet-application implies that the private key and/or recovery phrase is in full control of the end-user. This means that transactions can never be made without the user's direct action. It also means that should the user forget or misplace their recovery phrase, wallet-application makers cannot help restore access to the funds in the bitcoin wallet. _This guide is focused on non-custodial wallets._
 
-With a custodial wallet-application, the users are not exposed to and in charge of securing the recovery phrase. Often custodial wallet-applications require users to sign in with their email and password. Users have to trust the wallet-application makers to secure their recovery phrase and bitcoin. With a custodial wallet-application, the makers of it are technically in control of their users' funds. Most exchanges give users custodial wallets.
+With a custodial wallet-application, the users are not exposed to and in charge of securing the recovery phrase. Often custodial wallet-applications require users to sign in with their email and password. Users must trust the wallet-application makers to secure their recovery phrase and bitcoin. With a custodial wallet-application, the makers of it are technically in control of their users' funds. Most exchanges give users custodial wallets.
 
 #### Hot / Cold wallet
 
-*Hot* and *cold* describe a wallet in terms of being connected to the internet. Where a hot wallet is connected to the internet, a cold wallet is not. The idea is that a cold wallet is less susceptible to third-party theft over the internet. Most software wallet-application would be seen as hot (although some can be used just for signing on a device not connected to the internet) and most hardware wallet-application would be seen as cold (although they are sometimes connected for signing purposes).
+*Hot* and *cold* describe a wallet in terms of being connected to the internet. Where a hot wallet is connected to the internet, a cold wallet is not. The idea is that a cold wallet is less susceptible to third-party theft over the internet. Most software wallet-application would be seen as hot (although some can be used just for signing on a device not connected to the internet), and most hardware wallet-application would be seen as cold (although they are sometimes connected for signing purposes).

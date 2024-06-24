@@ -2,7 +2,7 @@
 layout: guide
 title: Contribute to guide
 description: Additional material for both readers and writers of the guide.
-nav_order: 9
+nav_order: 12
 has_children: true
 permalink: /guide/contribute/
 main_classes: -no-top-padding
@@ -22,13 +22,47 @@ image: https://bitcoin.design/assets/images/guide/contribute/contribute-preview.
 
 # Contribute to the Guide
 
-Join our open community and help us improve the Bitcoin Design Guide. Here’s where you can get involved and contribute.
+Join our open community and help us improve the Bitcoin Design Guide.
+
+### Our current tasks
+
+<div class="emoji-boxes">
+{% include emoji-box.html
+    emoji = "📅"
+    title = "Roadmap"
+    description = "The big goals and milestones we're working towards."
+    first = true
+    url = "https://github.com/orgs/BitcoinDesign/projects/2"
+%}
+
+{% include emoji-box.html
+    emoji = "🆕"
+    title = "Good first issues"
+    description = "Looking for something easy to get started?"
+    url = "https://github.com/BitcoinDesign/Guide/issues?q=is%3Aissue+is%3Aopen+label%3A%22Good+first+issue%22"
+%}
+
+{% include emoji-box.html
+    emoji = "✍"
+    title = "Writing"
+    description = "Help write informative, clear design information."
+    url = "https://github.com/BitcoinDesign/Guide/issues?q=is%3Aissue+is%3Aopen+label%3ACopy"
+%}
+
+{% include emoji-box.html
+    emoji = "‍🎨"
+    title = "Design"
+    description = "Illustration, screen mock-ups, and all that fun stuff."
+    last = true
+    url = "https://github.com/BitcoinDesign/Guide/issues?q=is%3Aissue+is%3Aopen+label%3ADesign"
+%}
+</div>
 
 ---
 
-### [Slack channel]({{ site.slack_invite_url }})
+### [Discord channel]({{ site.discord_invite_url }})
 
-Head over to the Bitcoin [Bitcoin Design Slack community]({{ site.slack_invite_url }}) and join the #bitcoin-design-guide channel. If you don’t have Slack, you can [download it here](https://slack.com/intl/en-rs/downloads) or on the App Store.
+Head over to the [Bitcoin Design Discord community]({{ site.discord_invite_url }}) and join the #bitcoin-design-guide channel. If you don’t have Discord, you can [download it here](https://discord.com/download) or on the App Store.
 
 
 ---
@@ -59,7 +93,7 @@ Tips on how to write for the guide. The goal is to achieve a consistent tone acr
 
 ### [Illustration guidelines]({{ '/guide/contribute/illustration-guidelines/' | relative_url }})
 
-Creating visuals for the Bitcoin Design Guide? We recommend following these best practices for file naming, image sizing, and on.
+Creating visuals for the Bitcoin Design Guide? We recommend following these best practices for file naming, image sizing, etc.
 
 ---
 
@@ -68,14 +102,18 @@ Creating visuals for the Bitcoin Design Guide? We recommend following these best
 Layout and formatting options from headers and blockquotes to images and embeds.
 
 ---
+### [Case studies]({{ '/guide/contribute/case-studies/' | relative_url }})
 
-These contribution guidelines are for the Bitcoin Design Guide project. To get involved with the broader Bitcoin Design Community and projects, check out [general contribution guidelines]({{ '/contribute/' | relative_url }}).
+Tips and tricks on how to share your design or research process in the form of a case study.
+
+---
+These contribution guidelines are for the Bitcoin Design Guide project. To get involved with the broader Bitcoin Design Community and projects, check out [general contribution guidelines]({{ '/join/' | relative_url }}).
 
 ---
 
 {% include next-previous.html
-   previousUrl = "/guide/case-studies/shared-account/"
-   previousName = "Shared account"
+   previousUrl = "/guide/resources/"
+   previousName = "Resources"
    nextUrl = "/guide/contribute/propose-a-change/"
    nextName = "Proposing a change"
 %}
